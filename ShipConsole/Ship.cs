@@ -61,6 +61,16 @@ namespace ShipConsole
             return overUnderNum;
         }
 
+
+        public int Diafora()
+            {
+        
+        int diaf;
+            diaf=GetShipLoad()- Capacity;
+            return diaf;
+                    
+        }
+
         //public string ToStringA()
         //{
         //    string str;
