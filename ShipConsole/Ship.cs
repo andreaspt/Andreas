@@ -28,7 +28,7 @@ namespace ShipConsole
         public int GetShipLoad()
         {
             int fortio;
-            fortio = CyclesCount + CarsCount + TrucksCount + TrainsCount;
+            fortio = CyclesCount * cyclespace + CarsCount * carspace + TrucksCount * trucklespace + TrainsCount * trainspace;
             return fortio;
         }
 
